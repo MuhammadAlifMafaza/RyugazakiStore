@@ -2,10 +2,11 @@
 
 namespace App\Controllers;
 
-class Home extends BaseController
-{
-    public function index(): string
-    {
-        return view('welcome_message');
+use App\Models\Customer\ProductModel;
+use App\Models\Customer\OrderModel;
+
+class Home extends BaseController {
+    public function index() {
+        echo view('home');
     }
 }

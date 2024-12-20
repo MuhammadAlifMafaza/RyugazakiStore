@@ -6,6 +6,6 @@
     <title>Document</title>
 </head>
 <body>
-    <h1>ini halaman admin setealh berhasil login</h1>
+    <h1>ini halaman admin setelah berhasil login</h1>
 </body>
 </html>

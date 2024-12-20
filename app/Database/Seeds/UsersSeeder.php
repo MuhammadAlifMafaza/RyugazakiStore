@@ -18,7 +18,6 @@ class UsersSeeder extends Seeder
 
         // Simple Queries
         
-
         // Using Query Builder
         $this->db->table('user')->insert($data);
     }
